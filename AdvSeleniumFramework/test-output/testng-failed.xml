@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="login.DWS_Login_01_Test">
+      <class name="wishList.HandlingDynamicEle">
         <methods>
-          <include name="tearDownTheBrowser"/>
-          <include name="Login_to_application_with_valid_credentials"/>
-          <include name="loginToApplication"/>
-          <include name="logoutFromApplication"/>
-          <include name="launchingBrowserAndNavigateToApp"/>
+          <include name="app"/>
         </methods>
-      </class> <!-- login.DWS_Login_01_Test -->
-      <class name="register.DWS_Register_02_Test">
-        <methods>
-          <include name="tearDownTheBrowser"/>
-          <include name="loginToApplication"/>
-          <include name="logoutFromApplication"/>
-          <include name="launchingBrowserAndNavigateToApp"/>
-          <include name="Register_to_the_application_with_valid_credentials"/>
-        </methods>
-      </class> <!-- register.DWS_Register_02_Test -->
+      </class> <!-- wishList.HandlingDynamicEle -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

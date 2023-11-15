@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="frameworkWorkCheck.loginUsingMultipleData">
+      <class name="wishList.HandlingDynamicEle">
         <methods>
-          <include name="tearDownTheBrowser"/>
-          <include name="loginToApplication"/>
-          <include name="logoutFromApplication"/>
-          <include name="Login_to_application" invocation-numbers="0 1"/>
-          <include name="launchingBrowserAndNavigateToApp"/>
+          <include name="app"/>
         </methods>
-      </class> <!-- frameworkWorkCheck.loginUsingMultipleData -->
+      </class> <!-- wishList.HandlingDynamicEle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
